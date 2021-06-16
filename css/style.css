@@ -1,0 +1,164 @@
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+h2,h3{
+  font-family:"Montserrat-bold";
+}
+
+/* Headings */
+.big-heading{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+p{
+  color:#8f8f8f;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Navigation bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size:2.5rem;
+  font-weight: bold;
+
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family:"Montserrat-light";
+}
+/* sections */
+.colored-section{
+  background-color: #ff4c68;
+  color:#ffffff;
+}
+.white-section{
+  background-color: #fff;
+}
+
+/* Download Button */
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+/* title section */
+#title{
+  background-color: #ff4c68;
+  color:#ffffff;
+}
+#title.container-fluid{
+  padding:3% 15% 7%;
+}
+/* iphone-dog-image */
+.title-image{
+  width: 60%;
+  transform:rotate(25deg);
+  position: absolute;
+}
+
+/* middle element */
+#features{
+
+
+  position:relative;
+
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-div{
+
+  padding:4.5%;
+}
+.font-awesome-icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.font-awesome-icon:hover{
+  color:#ff4c68;
+}
+/* testimonials */
+
+#testimonials{
+  background-color: #ef8172;
+  color:#ffffff;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonials-images{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+#press{
+
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+  padding:100px;
+
+}
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-col{
+  padding:3% 2%;
+}
+@media (max-width:1030px){
+  .title-image{
+    position:static;
+    transform:rotate(0deg);
+
+  }
+
+}
+
+
+/* footer */
+
+#cta{
+
+  background-color: #ff4c68;
+  color:#fff;
+  font-family: "Montserrat-Black";
+  font-weight: bold;
+}
+.footer-h3{
+  font-size:3.5rem;
+  line-height: 1.5
+  padding:0 100px;
+}
+.footer-button{
+  margin:45px 15px 60px 15px;
+}
+#footer{
+
+  margin:20px auto;
+}
+.icons{
+  margin:15px 8px;
+}
